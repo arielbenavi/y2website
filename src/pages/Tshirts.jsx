@@ -1,21 +1,46 @@
 import { useNavigate } from "react-router-dom";
 
 const tshirts = [
-  {
+    {
     name: "NUN OF YOUR BUSINESS",
     price: "$35",
     image: "/images/T NUN OF YOUR BUSINESS-front.png",
-  },
-  {
+    },
+    {
     name: "PEPE",
     price: "$40",
     image: "/images/T PEPE-front.png",
-  },
-  {
+    },
+    {
     name: "SARIT",
-    price: "$30",
+    price: "$35",
     image: "/images/T SARIT-front.png",
-  },
+    },
+    {
+    name: "MICKY",
+    price: "$35",
+    image: "/images/T MICKY-front.png",
+    },
+    {
+    name: "MSFIT",
+    price: "$35",
+    image: "/images/T MSFIT 2.0-front.png",
+    },
+    {
+    name: "NARKOMANIT",
+    price: "$35",
+    image: "/images/T NARKOMANIT-front.png",
+    },
+    {
+    name: "LAG BAOMER",
+    price: "$35",
+    image: "/images/T LAG BAOMER-front.png",
+    },
+    {
+    name: "FALAFEL",
+    price: "$35",
+    image: "/images/T FALAFEL-front.png",
+    },
 ];
 
 export default function Tshirts() {
