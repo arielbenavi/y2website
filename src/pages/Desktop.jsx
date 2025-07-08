@@ -13,7 +13,7 @@ export default function Desktop() {
       {/* T-Shirts Icon */}
       <div
         className="absolute flex flex-col items-center cursor-pointer hover:brightness-110"
-        style={{ left: '100px', top: '390px' }}
+        style={{ left: '110px', top: '260px' }}
         onClick={() => navigate("/tshirts")}
       >
         <img src="/icons/tshirt.png" alt="T-Shirts" className="w-24 h-24" />
@@ -23,7 +23,7 @@ export default function Desktop() {
       {/* Hoodies Icon */}
       <div
         className="absolute flex flex-col items-center cursor-pointer hover:brightness-110"
-        style={{ left: '100px', top: '550px' }}
+        style={{ left: '120px', top: '400px' }}
         onClick={() => navigate("/hoodies")}
       >
         <img src="/icons/hoodie.png" alt="Hoodies" className="w-24 h-24" />
@@ -33,7 +33,7 @@ export default function Desktop() {
       {/* Message Warning Icon */}
       <div
         className="absolute flex flex-col items-center cursor-pointer hover:brightness-110"
-        style={{ left: '250px', top: '390px' }}
+        style={{ left: '250px', top: '240px' }}
         onClick={() => navigate("/warning")}
       >
         <img src="/icons/msg_warning.png" alt="Warning" className="w-24 h-24" />
@@ -43,7 +43,7 @@ export default function Desktop() {
       {/* FAQ Icon */}
       <div
         className="absolute flex flex-col items-center cursor-pointer hover:brightness-110"
-        style={{ left: '250px', top: '550px' }}
+        style={{ left: '250px', top: '420px' }}
         onClick={() => navigate("/faq")}
       >
         <img src="/icons/help_book.png" alt="FAQ" className="w-24 h-24" />

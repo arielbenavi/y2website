@@ -2,19 +2,19 @@ import { useNavigate } from "react-router-dom";
 
 const tshirts = [
   {
-    name: "Flame Tee",
+    name: "NUN OF YOUR BUSINESS",
     price: "$35",
-    image: "/images/flame-tee.jpg",
+    image: "/images/T NUN OF YOUR BUSINESS-front.png",
   },
   {
-    name: "Chrome Skull Tee",
+    name: "PEPE",
     price: "$40",
-    image: "/images/skull-tee.jpg",
+    image: "/images/T PEPE-front.png",
   },
   {
-    name: "Pixel Logo Tee",
+    name: "SARIT",
     price: "$30",
-    image: "/images/pixel-logo-tee.jpg",
+    image: "/images/T SARIT-front.png",
   },
 ];
 
@@ -29,7 +29,7 @@ export default function Tshirts() {
       <div className="w-[700px] bg-gray-200 border border-black shadow-lg">
         {/* Title Bar */}
         <div className="flex justify-between items-center bg-blue-700 text-white px-3 py-1 text-sm">
-          <span>🪟 T-Shirts Folder</span>
+          <span>👕 T-Shirts</span>
           <button
             className="bg-red-500 text-black w-5 h-5 border border-black"
             onClick={() => navigate("/")}
