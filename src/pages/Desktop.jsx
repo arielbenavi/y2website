@@ -37,7 +37,7 @@ export default function Desktop() {
         onClick={() => navigate("/warning")}
       >
         <img src="/icons/msg_warning.png" alt="Warning" className="w-24 h-24" />
-        <span className="text-sm mt-2 text-black">Warning</span>
+        <span className="text-sm mt-2 text-black">Disclaimer</span>
       </div>
 
       {/* FAQ Icon */}
