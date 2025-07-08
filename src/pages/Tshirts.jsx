@@ -49,9 +49,19 @@ export default function Tshirts() {
               />
               <p className="font-bold">{shirt.name}</p>
               <p>{shirt.price}</p>
-              <button className="mt-1 px-2 py-1 border border-black bg-gray-300 hover:bg-gray-400">
+                <a 
+                href="https://ig.me/m/pudabeats" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="mt-1 px-2 py-1 border border-black bg-gray-300 hover:bg-gray-400 inline-block text-center cursor-pointer"
+                style={{ 
+                    textDecoration: 'none', 
+                    color: 'black',
+                    backgroundColor: '#d1d5db' // This forces the gray-300 color
+                }}
+                >
                 Add to Cart
-              </button>
+                </a>
             </div>
           ))}
         </div>
