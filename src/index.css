@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "DOS";
+  src: url("/fonts/PerfectDOSVGA437.ttf") format("truetype");
+}
+
+body {
+  font-family: "DOS", monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
