@@ -41,6 +41,11 @@ const tshirts = [
     price: "$35",
     image: "/images/T FALAFEL-front.png",
     },
+    {
+    name: "SHAWARMA",
+    price: "$35",
+    image: "/images/T SHAWARMA-front.png",
+    },
 ];
 
 export default function Tshirts() {
