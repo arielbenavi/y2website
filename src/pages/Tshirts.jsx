@@ -2,6 +2,31 @@ import { useNavigate } from "react-router-dom";
 
 const tshirts = [
     {
+    name: "BARCODE",
+    price: "$35",
+    image: "/images/BARCODE-front.png",
+    },
+    {
+    name: "ROOTS",
+    price: "$35",
+    image: "/images/ROOTS-front.png",
+    },
+    {
+    name: "FRIEND 2",
+    price: "$35",
+    image: "/images/FRIEND-2-front.png",
+    },
+    {
+    name: "FRIEND 1",
+    price: "$35",
+    image: "/images/FRIEND-1-front.png",
+    },
+    {
+    name: "LUCKY",
+    price: "$35",
+    image: "/images/LUCKY-front.png",
+    },
+    {
     name: "NUN OF YOUR BUSINESS",
     price: "$35",
     image: "/images/T NUN OF YOUR BUSINESS-front.png",
